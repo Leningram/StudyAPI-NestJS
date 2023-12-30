@@ -23,7 +23,4 @@ const getMongoString = (configService: ConfigService) =>
   configService.get('MONGO_AUTHDATABASE');
 
 const getMongoOptions = () => ({
-  userNewUrlParser: true,
-  useCreateIndex: true,
-  useUnifiedTolpology: true,
 });
